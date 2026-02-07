@@ -1,4 +1,4 @@
-class Question<T>(
+data class Question<T>(
     val questionText: String,
     val answer: T,
     val difficulty: Difficulty
@@ -29,4 +29,6 @@ fun main() {
                 println(question1.answer)
                 println(question2.answer)
                 println(question3.answer)
+
+    println(question1.toString())
 }
