@@ -27,16 +27,16 @@ fun main() {
         "Uranus" to 27,
         "Neptune" to 14
     )
-    println(solarSystem.size)
-    solarSystem["Pluto"] = 5
-    println(solarSystem.size)
-    println(solarSystem["Pluto"])
-    println(solarSystem.get("Theia"))
-
-    solarSystem.remove( key = "Pluto")
-    println(solarSystem.size)
-    solarSystem["Jupiter"] = 78
-    println(solarSystem["Jupiter"])
+//    println(solarSystem.size)
+//    solarSystem["Pluto"] = 5
+//    println(solarSystem.size)
+//    println(solarSystem["Pluto"])
+//    println(solarSystem.get("Theia"))
+//
+//    solarSystem.remove( key = "Pluto")
+//    println(solarSystem.size)
+//    solarSystem["Jupiter"] = 78
+//    println(solarSystem["Jupiter"])
 
 //        val solarSystem = mutableListOf(
 //            "Mercury", "Venus", "Earth", "Mars",
